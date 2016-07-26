@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ac.uk.susx.tag</groupId>
+  <artifactId>wiki-sample</artifactId>
+  <version>1.0</version>
+  <parent>
+     <groupId>uk.ac.susx.tag</groupId>
+     <artifactId>tag-dist</artifactId>
+     <version>1.0.3</version>
+     <relativePath>../tag-dist/pom.xml</relativePath>
+  </parent>
+  <build>
+  	<resources>
+  		<resource>
+  			<directory>sample</directory>
+  			<includes>
+  				<include>wiki-samp.ser</include>
+  			</includes>
+  		</resource>
+  	</resources>
+  </build>
+</project>
