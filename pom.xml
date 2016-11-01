@@ -2,11 +2,11 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ac.uk.susx.tag</groupId>
   <artifactId>wiki-sample</artifactId>
-  <version>1.0</version>
+  <version>1.0.1</version>
   <parent>
      <groupId>uk.ac.susx.tag</groupId>
      <artifactId>tag-dist</artifactId>
-     <version>1.0.3</version>
+     <version>1.0.4</version>
      <relativePath>../tag-dist/pom.xml</relativePath>
   </parent>
   <build>
@@ -15,6 +15,7 @@
   			<directory>sample</directory>
   			<includes>
   				<include>wiki-samp.ser</include>
+                <include>wiki-counts.ser</include>
   			</includes>
   		</resource>
   	</resources>
